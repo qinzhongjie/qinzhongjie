@@ -98,21 +98,19 @@
 
 
 
-<meta name="description" content="我们继续在跟目录下创建src --&amp;gt; html，dist --&amp;gt; html文件夹，,在src --&amp;gt; html下面创建index.html文件，现在的结构应该是这样的：1234567myweb	|----- dist		  |-----html	|----- node_modules	|-----src		  |-----html			    |-----index.html">
+<meta name="description" content="本章主要介绍几个常用的插件，用来完成less自动编译，css文件压缩，js文件压缩，html文件压缩等操作。
+less文件编译插件gulp-less1234567//less文件编译var less = require(&apos;gulp-less&apos;);gulp.task(&apos;less&apos;,function()&amp;#123;	gulp.src(&apos;src/less/*.less&apos;)	.pipe(less())	.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="gulp自动化构建项目（二）——自动化">
-<meta property="og:url" content="http://qinzhongjie.github.io/2016/09/08/gulp自动化构建项目（二）——自动化/index.html">
+<meta property="og:title" content="gulp自动化构建项目（三）——less编译及文件压缩">
+<meta property="og:url" content="http://qinzhongjie.github.io/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/index.html">
 <meta property="og:site_name" content="阿尔萨斯">
-<meta property="og:description" content="我们继续在跟目录下创建src --&amp;gt; html，dist --&amp;gt; html文件夹，,在src --&amp;gt; html下面创建index.html文件，现在的结构应该是这样的：1234567myweb	|----- dist		  |-----html	|----- node_modules	|-----src		  |-----html			    |-----index.html">
-<meta property="og:image" content="http://ob9qd20l4.bkt.clouddn.com/13.jpg">
-<meta property="og:image" content="http://ob9qd20l4.bkt.clouddn.com/14.jpg">
-<meta property="og:image" content="http://ob9qd20l4.bkt.clouddn.com/15.gif">
-<meta property="og:image" content="http://ob9qd20l4.bkt.clouddn.com/16.gif">
-<meta property="og:updated_time" content="2016-09-12T16:28:31.123Z">
+<meta property="og:description" content="本章主要介绍几个常用的插件，用来完成less自动编译，css文件压缩，js文件压缩，html文件压缩等操作。
+less文件编译插件gulp-less1234567//less文件编译var less = require(&apos;gulp-less&apos;);gulp.task(&apos;less&apos;,function()&amp;#123;	gulp.src(&apos;src/less/*.less&apos;)	.pipe(less())	.">
+<meta property="og:updated_time" content="2016-09-21T15:05:09.719Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="gulp自动化构建项目（二）——自动化">
-<meta name="twitter:description" content="我们继续在跟目录下创建src --&amp;gt; html，dist --&amp;gt; html文件夹，,在src --&amp;gt; html下面创建index.html文件，现在的结构应该是这样的：1234567myweb	|----- dist		  |-----html	|----- node_modules	|-----src		  |-----html			    |-----index.html">
-<meta name="twitter:image" content="http://ob9qd20l4.bkt.clouddn.com/13.jpg">
+<meta name="twitter:title" content="gulp自动化构建项目（三）——less编译及文件压缩">
+<meta name="twitter:description" content="本章主要介绍几个常用的插件，用来完成less自动编译，css文件压缩，js文件压缩，html文件压缩等操作。
+less文件编译插件gulp-less1234567//less文件编译var less = require(&apos;gulp-less&apos;);gulp.task(&apos;less&apos;,function()&amp;#123;	gulp.src(&apos;src/less/*.less&apos;)	.pipe(less())	.">
 
 
 
@@ -133,9 +131,9 @@
 
 
 
-  <link rel="canonical" href="http://qinzhongjie.github.io/2016/09/08/gulp自动化构建项目（二）——自动化/"/>
+  <link rel="canonical" href="http://qinzhongjie.github.io/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/"/>
 
-  <title> gulp自动化构建项目（二）——自动化 | 阿尔萨斯 </title>
+  <title> gulp自动化构建项目（三）——less编译及文件压缩 | 阿尔萨斯 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -275,7 +273,7 @@
             
             
               
-                gulp自动化构建项目（二）——自动化
+                gulp自动化构建项目（三）——less编译及文件压缩
               
             
           </h1>
@@ -287,8 +285,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-08T22:08:19+08:00" content="2016-09-08">
-              2016-09-08
+            <time itemprop="dateCreated" datetime="2016-09-09T10:19:26+08:00" content="2016-09-09">
+              2016-09-09
             </time>
           </span>
 
@@ -298,8 +296,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/09/08/gulp自动化构建项目（二）——自动化/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/08/gulp自动化构建项目（二）——自动化/" itemprop="commentsCount"></span>
+                <a href="/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -309,7 +307,7 @@
 
           
           
-             <span id="/2016/09/08/gulp自动化构建项目（二）——自动化/" class="leancloud_visitors" data-flag-title="gulp自动化构建项目（二）——自动化">
+             <span id="/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/" class="leancloud_visitors" data-flag-title="gulp自动化构建项目（三）——less编译及文件压缩">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -331,27 +329,12 @@
       
 
       
-        <p>我们继续在跟目录下创建<code>src --&gt; html</code>，<code>dist --&gt; html</code>文件夹，,在<code>src --&gt; html</code>下面创建<code>index.html</code>文件，现在的结构应该是这样的：<br><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">myweb</div><div class="line">	<span class="string">|----- dist</span></div><div class="line">		  <span class="string">|-----html</span></div><div class="line">	<span class="string">|----- node_modules</span></div><div class="line">	<span class="string">|-----src</span></div><div class="line">		  <span class="string">|-----html</span></div><div class="line">			    <span class="string">|-----index.html</span></div></pre></td></tr></table></figure></p>
+        <p>本章主要介绍几个常用的插件，用来完成less自动编译，css文件压缩，js文件压缩，html文件压缩等操作。</p>
+<h3 id="less文件编译插件"><a href="#less文件编译插件" class="headerlink" title="less文件编译插件"></a>less文件编译插件</h3><p><a href="https://www.npmjs.com/package/gulp-less" target="_blank" rel="external">gulp-less</a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//less文件编译</span></div><div class="line"><span class="keyword">var</span> less = <span class="built_in">require</span>(<span class="string">'gulp-less'</span>);</div><div class="line">gulp.task(<span class="string">'less'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	gulp.src(<span class="string">'src/less/*.less'</span>)</div><div class="line">	.pipe(less())</div><div class="line">	.pipe(gulp.dest(<span class="string">'dist/css'</span>));</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
 <a id="more"></a>
-<p>现在在index.html文件中写入<code>&lt;h1&gt;hello world&lt;/h1&gt;</code>。</p>
-<h3 id="实现自动拷贝"><a href="#实现自动拷贝" class="headerlink" title="实现自动拷贝"></a>实现自动拷贝</h3><p>接下来编写<code>gulpfile.js</code>文件，这是实现自动化的关键,目的是把<code>src --&gt; html</code>下面的<code>index.html</code>文件拷贝到<code>dist --&gt; html</code>。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//引入gulp模块</span></div><div class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>);</div><div class="line"><span class="comment">//创建任务，任务名为copy</span></div><div class="line">gulp.task(<span class="string">'copy'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	<span class="comment">//读取文件</span></div><div class="line">	gulp.src(<span class="string">'src/html/index.html'</span>)</div><div class="line">	<span class="comment">//写入文件</span></div><div class="line">	.pipe(gulp.dest(<span class="string">'dist/html'</span>));</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<p>编写完成后，在控制台用<code>gulp copy</code>执行copy任务</p>
-<p><img src="http://ob9qd20l4.bkt.clouddn.com/13.jpg" alt="执行命令"></p>
-<p>然后查看<code>dist --&gt; html</code>下面已经存在<code>index.html</code>文件。</p>
-<h3 id="创建http服务"><a href="#创建http服务" class="headerlink" title="创建http服务"></a>创建http服务</h3><p>下一个任务是创建一个http服务，通过http服务访问<code>dist --&gt; html</code>下面的idnex.html。这就需要引入<a href="https://www.browsersync.io/" target="_blank" rel="external"><code>browsersync</code></a>插件。先用npm安装，<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> browser-<span class="keyword">sync</span> <span class="comment">--save-dev</span></div></pre></td></tr></table></figure></p>
-<p>安装完成后在<code>gulpfile.js</code>中增加以下代码块：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//引入browser-sync模块并创建一个bs对象</span></div><div class="line"><span class="keyword">var</span> bs = <span class="built_in">require</span>(<span class="string">'browser-sync'</span>).create();</div><div class="line"><span class="comment">//创建server服务,名为start</span></div><div class="line">gulp.task(<span class="string">'start'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	bs.init(&#123;</div><div class="line">		<span class="attr">server</span>:<span class="string">'./dist/html/'</span></div><div class="line">	&#125;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<p>完成后在控制台调用此任务</p>
-<p><img src="http://ob9qd20l4.bkt.clouddn.com/14.jpg" alt="调用http服务"></p>
-<p>打开浏览器访问<code>localhost:3000</code>（也可能浏览器会自动打开），出现<code>Hello World</code>，按<code>ctrl+c</code>关闭服务，任务完成。</p>
-<h3 id="多窗口同步"><a href="#多窗口同步" class="headerlink" title="多窗口同步"></a>多窗口同步</h3><p>接下来是一个有趣的事，如果上面编写的index.html足够长，在同时打开多个浏览器窗口浏览的情况下，所有窗口竟然会同步滚动！如果此时有手机和这台电脑处于同一个局域网络的话，手机访问控制台中<code>External</code>提供的URL打开的窗口会和PC上的保持同步！如下图所示效果</p>
-<p><img src="http://ob9qd20l4.bkt.clouddn.com/15.gif" alt="多窗口同步展示"></p>
-<h3 id="实现监听"><a href="#实现监听" class="headerlink" title="实现监听"></a>实现监听</h3><p>现在的任务是实现<strong>只要src中的源文件index.html有所改动，程序会自动拷贝到dist–&gt;html下面（即执行上面编写的copy任务），并且浏览器自动刷新，实现实时浏览</strong>”这里用到了监听事件，继续编写<code>start</code>任务：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//引入browser-sync模块并创建一个bs对象</span></div><div class="line"><span class="keyword">var</span> bs = <span class="built_in">require</span>(<span class="string">'browser-sync'</span>).create();</div><div class="line"><span class="comment">//创建server服务,名为start</span></div><div class="line">gulp.task(<span class="string">'start'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	bs.init(&#123;</div><div class="line">		<span class="attr">server</span>:<span class="string">'./dist/html/'</span></div><div class="line">	&#125;);</div><div class="line">	gulp.watch(<span class="string">'src/html/index.html'</span>,[<span class="string">'copy'</span>]);</div><div class="line">	gulp.watch([<span class="string">'src/html/index.html'</span>]).on(<span class="string">'change'</span>,bs.reload);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<p>编写完成后在控制台执行start任务，开启http服务。打开多个窗口，发现能实现同步滚动，现在不要关闭浏览器窗口，打开src–&gt;html–&gt;index.html，修改页面内容，发现多个浏览器窗口实时刷新，展示修改后的结果。</p>
-<p><img src="http://ob9qd20l4.bkt.clouddn.com/16.gif" alt="修改实时同步预览"></p>
-<p>到此，初步的自动化已经实现了，此处实时刷新的效率与电脑配置有关。</p>
+<h3 id="css文件压缩"><a href="#css文件压缩" class="headerlink" title="css文件压缩"></a>css文件压缩</h3><p><a href="https://www.npmjs.com/package/gulp-minify-css" target="_blank" rel="external">gulp-minify-css</a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//less文件编译</span></div><div class="line"><span class="keyword">var</span> less = <span class="built_in">require</span>(<span class="string">'gulp-less'</span>);</div><div class="line"><span class="comment">//压缩css文件</span></div><div class="line"><span class="keyword">var</span> mincss = <span class="built_in">require</span>(<span class="string">'gulp-minify-css'</span>);</div><div class="line"></div><div class="line">gulp.task(<span class="string">'less'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	gulp.src(<span class="string">'src/less/*.less'</span>)</div><div class="line">	.pipe(less())</div><div class="line">	.pipe(mincss())   <span class="comment">//压缩css文件</span></div><div class="line">	.pipe(gulp.dest(<span class="string">'dist/css'</span>));</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<h3 id="js文件压缩"><a href="#js文件压缩" class="headerlink" title="js文件压缩"></a>js文件压缩</h3><p><a href="https://www.npmjs.com/package/uglify" target="_blank" rel="external">uglify</a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//js文件压缩</span></div><div class="line"><span class="keyword">var</span> uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify'</span>);</div><div class="line">gulp.task(<span class="string">'minjs'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	gulp.src(<span class="string">'src/js/*.js'</span>)</div><div class="line">	.pipe(uglify())</div><div class="line">	.pipe(gulp.dest(<span class="string">'dist/js'</span>));</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<h3 id="html文件压缩"><a href="#html文件压缩" class="headerlink" title="html文件压缩"></a>html文件压缩</h3><p><a href="https://www.npmjs.com/package/gulp-htmlmin" target="_blank" rel="external">gulp-htmlmin</a><br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">gulp.task(<span class="string">'minhtml'</span>,<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</div><div class="line">	<span class="comment">//读取文件</span></div><div class="line">	gulp.src(<span class="string">'src/html/index.html'</span>)</div><div class="line">	<span class="comment">//html压缩</span></div><div class="line">	.pipe(htmlmin(&#123;</div><div class="line">			collapseWhitespace: <span class="literal">true</span>,</div><div class="line">      			removeComments: <span class="literal">true</span></div><div class="line">      		&#125;</div><div class="line">		))</div><div class="line">	<span class="comment">//写入文件</span></div><div class="line">	.pipe(gulp.dest(<span class="string">'dist/html'</span>));</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -383,17 +366,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/09/07/gulp自动化构建项目（一）——环境搭建/" rel="next" title="gulp自动化构建项目（一）——环境搭建">
-                <i class="fa fa-chevron-left"></i> gulp自动化构建项目（一）——环境搭建
+              <a href="/2016/09/08/gulp自动化构建项目（二）——自动化/" rel="next" title="gulp自动化构建项目（二）——自动化">
+                <i class="fa fa-chevron-left"></i> gulp自动化构建项目（二）——自动化
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/" rel="prev" title="gulp自动化构建项目（三）——less编译及文件压缩">
-                gulp自动化构建项目（三）——less编译及文件压缩 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -408,10 +387,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/09/08/gulp自动化构建项目（二）——自动化/"
-     data-title="gulp自动化构建项目（二）——自动化"
+        <div class="ds-share flat" data-thread-key="2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/"
+     data-title="gulp自动化构建项目（三）——less编译及文件压缩"
      data-content=""
-     data-url="http://qinzhongjie.github.io/2016/09/08/gulp自动化构建项目（二）——自动化/">
+     data-url="http://qinzhongjie.github.io/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -438,8 +417,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/09/08/gulp自动化构建项目（二）——自动化/"
-           data-title="gulp自动化构建项目（二）——自动化" data-url="http://qinzhongjie.github.io/2016/09/08/gulp自动化构建项目（二）——自动化/">
+      <div class="ds-thread" data-thread-key="2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/"
+           data-title="gulp自动化构建项目（三）——less编译及文件压缩" data-url="http://qinzhongjie.github.io/2016/09/09/gulp自动化构建项目（三）——less编译及文件压缩/">
       </div>
     
   </div>
@@ -577,7 +556,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#实现自动拷贝"><span class="nav-number">1.</span> <span class="nav-text">实现自动拷贝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建http服务"><span class="nav-number">2.</span> <span class="nav-text">创建http服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多窗口同步"><span class="nav-number">3.</span> <span class="nav-text">多窗口同步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现监听"><span class="nav-number">4.</span> <span class="nav-text">实现监听</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#less文件编译插件"><span class="nav-number">1.</span> <span class="nav-text">less文件编译插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#css文件压缩"><span class="nav-number">2.</span> <span class="nav-text">css文件压缩</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#js文件压缩"><span class="nav-number">3.</span> <span class="nav-text">js文件压缩</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#html文件压缩"><span class="nav-number">4.</span> <span class="nav-text">html文件压缩</span></a></li></ol></div>
             
           </div>
         </section>
